@@ -1,0 +1,16 @@
+{
+  "name": "yab-js",
+  "version": "0.0.1",
+  "description": "yab on node",
+  "author": "martin sereinig <ms@veryunited.net>",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon -e \".js\" server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "~1.12"
+  }
+}
