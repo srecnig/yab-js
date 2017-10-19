@@ -1,0 +1,16 @@
+{
+  "development": {
+    "username": "yab",
+    "password": "yab",
+    "database": "yab",
+    "host": "postgres",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "yab",
+    "password": "yab",
+    "database": "yab_testing",
+    "host": "postgres",
+    "dialect": "postgres"
+  }
+}
