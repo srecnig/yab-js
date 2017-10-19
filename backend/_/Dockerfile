@@ -8,8 +8,8 @@ RUN mkdir /backend
 RUN chown $HOSTUID:$HOSTGID /backend
 VOLUME /backend
 
-EXPOSE 8080
+EXPOSE 3000
 
-WORKDIR /backend
+WORKDIR /backend/yab-js
 
 CMD /backend/_/startup.sh
