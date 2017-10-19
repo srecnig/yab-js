@@ -9,14 +9,4 @@ router.get('/', function(req, res) {
   });
 });
 
-// router.get('/new', function(req, res) {
-//   models.Post.create({
-//     title: 'This is the title',
-//     body: 'This is the super long body'
-//   }).then(function(post) {
-//     res.setHeader('Content-Type', 'application/json');
-//     res.send(JSON.stringify({ 'status': true, 'post': post }));
-//   });
-// });
-
 module.exports = router;
